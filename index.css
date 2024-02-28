@@ -1,0 +1,85 @@
+h2 {
+  font-size: 25px;
+}
+img {
+  margin-right: 5px;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+display: flex;
+background-color:beige;
+}
+
+img {
+float: left;
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+margin-right: 45px;
+margin-bottom: 30px;
+width: 40em;
+}
+h2 {
+letter-spacing: 3px;
+font-family: Calibri;
+color: brown;
+margin-bottom: 10px;
+margin-top: 15px;
+font-size: 34px;
+}
+h4 {
+letter-spacing: 4px;
+font-family: Calibri;
+font-size: 17px;
+}
+p {
+font-family: Calibri;
+color: grey;
+font-size: 19px;
+}
+.countdown {
+display: flex;
+}
+h3 {
+font-size: 35px;
+}
+
+div {
+display: block;
+font-family: Calibri;
+margin-bottom: 10px;
+}
+
+.time {
+background: burlywood;
+color: black;
+margin-right: 1rem;
+margin-top: 10px;
+width: 5rem;
+height: 5rem;
+display: grid;
+align-items: center;
+justify-items: center;
+text-align: center;
+border-radius: 6px;
+}
+.time:hover {
+opacity: 0.5;
+}
+
+.wrapper {
+max-width: 1200px;
+margin-right: 10vw;
+margin-left: 10vw;
+margin-top: 5vw;
+padding: 20px;
+}
+
+.text-info {
+margin-right: 20px;
+}
